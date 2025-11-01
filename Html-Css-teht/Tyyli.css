@@ -1,0 +1,139 @@
+body {
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 1024px;
+  background-color: #96a78d;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav img {
+  height: 96px;
+  width: auto;
+  padding: 0;
+}
+
+nav .navitems a {
+  color: black;
+  text-decoration: none;
+  padding: 2rem;
+}
+
+nav .navitems a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding-top: 8rem;
+}
+
+main h1 {
+  padding-top: 7rem;
+  font-size: 3rem;
+}
+
+.wall {
+  width: 1024px;
+  padding: 0;
+  margin: 0;
+  background-image: url("https://picsum.photos/id/487/200/300?blur=8");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  min-height: 100vh;
+}
+
+section {
+  padding-top: 1rem;
+  width: 950px;
+  text-align: center;
+  min-height: 100vh;
+  scroll-margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  scroll-snap-align: start;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.topphoto {
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+.productbox {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.product {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #a18d6d;
+}
+
+.product img {
+  height: auto;
+  width: 100%;
+}
+
+.product h2 {
+  width: 100%;
+  text-align: left;
+}
+
+.product p {
+  text-align: left;
+}
+
+.product figcaption {
+  color: black;
+  text-align: left;
+}
+
+.contact {
+  text-align: left;
+}
+.contactpage {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactpage h3 {
+  font-size: 1.5rem;
+}
+
+.contactpage p {
+  padding-top: 1rem;
+  padding-right: 3rem;
+}
+
+.map {
+  margin-top: 4rem;
+}
