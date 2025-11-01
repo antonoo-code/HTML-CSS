@@ -16,20 +16,21 @@ nav {
   position: fixed;
   top: 0;
   width: 1024px;
-  background-color: aqua;
+  background-color: #96a78d;
 }
 
 nav .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 0;
   box-sizing: border-box;
 }
 
 nav img {
-  height: 4rem;
+  height: 96px;
   width: auto;
+  padding: 0;
 }
 
 nav .navitems a {
@@ -55,7 +56,7 @@ main h1 {
   width: 1024px;
   padding: 0;
   margin: 0;
-  background-image: url("https://picsum.photos/id/53/200/300?blur=10");
+  background-image: url("https://picsum.photos/id/487/200/300?blur=8");
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
@@ -87,14 +88,13 @@ section {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  background-color: yellow;
   margin-top: 2rem;
 }
 
 .product {
   margin: 1rem;
   padding: 1rem;
-  background-color: aqua;
+  background-color: #a18d6d;
 }
 
 .product img {
